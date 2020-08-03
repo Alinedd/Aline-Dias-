@@ -1,0 +1,211 @@
+html ,
+corpo {
+  margem : 0 ;
+  tamanho da fonte : 14 px ;
+  peso da fonte : 300 ;
+  família de fontes : Roboto ,  'Open Sans' , Arial , sans-serif;
+}
+seção {
+  largura : 100 % ;
+  margem : 0 automático;
+  estouro : oculto;
+  preenchimento : 30 px  0  20 px  0 ;
+}
+seção  hora {
+  largura : 30 px ;
+}
+. cor_fundo {
+  fundo : # f7f7f7 ;
+}
+/ * -------- Cabeçalho -------- * /
+cabeçalho {
+  altura : 90 px ;
+  largura : 100 % ;
+  posição : fixa;
+  índice z : 10 ;
+  fundo : rgb ( 10 ,  140 ,  226 );
+}
+cabeçalho  # logo {
+  posição : absoluta;
+  superior : 10 px ;
+  # float : esquerda ;
+  # altura : 40 px;
+  largura : 170px;
+  margem esquerda : 5%;
+}
+header  # logo  img {
+  altura máxima : 100 % ;
+}
+cabeçalho . menu {
+  flutuador : direito;
+  estilo de lista : nenhum;
+#   margin-top : 2px;
+  margem direita : 5%;
+}
+cabeçalho . menu  li {
+  flutuar : esquerda;
+  tamanho da fonte : 18 px ;
+  preenchimento : 20 px  20 px  20 px  20 px ;
+}
+cabeçalho . menu  li  a {
+  cor : inicial;
+  decoração de texto : inicial;
+  cor : branco;
+}
+cabeçalho . li do menu  : passe o mouse {
+  cor de fundo : # 01acea ;
+  raio da borda : 15 px ;
+
+}
+/ * -------- Capa -------- * /
+figura {
+  margem : 0 automático;
+}
+figura . imagem_fundo {
+  background : url (.. / img / capa3.jpg);
+  tamanho do plano de fundo : capa;
+  altura : 100 % ;
+  preenchimento : 100 px ;
+}
+
+figura . titulo {
+  cor : # FFF ;
+  altura da linha : 0,9 ;
+  sombra do texto : 1 px  1 px preto;
+}
+figura  h1 . titulo {
+  tamanho da fonte : 50 px ;
+  espaçamento entre letras : 3 px ;
+  margem : 15 %  20 %  0 %  20 % ;
+  fundo do preenchimento : 30 px ;
+}
+figura  h2 . titulo {
+  preenchimento superior : 20 px ;
+  tamanho da fonte : 30 px ;
+  margem : 0  30 %  0  30 % ;
+  borda superior : branco sólido de 3 px ;
+  fundo do preenchimento : 30 px ;
+  espaçamento entre letras : 2 px ;  
+}
+. cta1 {
+  borda : 1 px em branco sólido;
+  raio da borda : 8 px ;
+  cor : branco;
+  preenchimento : 10 px  20 px  10 px  20 px ;
+  decoração de texto : inicial;
+  tamanho da fonte : 20 px ;
+}
+. cta1 : passe o mouse {
+  cor de fundo : # 01acea ;
+  borda : 0 px ;
+}
+/ * -------- Colunas -------- * /
+. coluna {
+  flutuar : esquerda;
+  estofamento : 0  5 % ;
+  posição : relativa;
+}
+. coluna . quatro {
+  largura : 15 % ;
+  estofamento : 0  5 %  0  5 % ;
+}
+. coluna . tres {
+  largura : 29 % ;
+  estofamento : 0  2 % ;
+}
+. coluna . dois {
+  largura : 40 % ;
+}
+. coluna . icone {
+  raio da borda : 50 % ;
+  altura : 85 px ;
+  largura : 85 px ;
+  alinhamento de texto : centro;
+  margem : 0 automático;
+}
+. coluna . icone  img {
+  largura máxima : 60 % ;
+  altura máxima : 60 % ;
+  margem : 15 px ;
+}
+. coluna : passe o mouse  > . icone {
+  fundo : azul claro ;
+}
+. coluna  img {
+  altura : 300 px ;
+  largura : 100 % ;
+}
+. coluna  iframe {
+  topo : 0 ;
+  esquerda : 0 ;
+  largura : 100 % ;
+}
+/ * -------- Textos -------- * /
+h1 {
+  alinhamento de texto : centro;
+  tamanho da fonte : 30 px ;
+}
+h2 {
+  família de fontes : 'Roboto Slab' , sans-serif;
+  alinhamento de texto : centro;
+  peso da fonte : 400 ;
+  tamanho da fonte : 16 px ;
+}    
+. esquerda {
+  alinhamento de texto : esquerda;
+}
+. direita {
+  alinhamento de texto : direita;
+}
+. centro {
+  alinhamento de texto : centro;
+}
+. justificado {
+  alinhar texto : justificar;
+}
+/ * -------- Rodapé -------- * /
+rodapé {
+  cor de fundo : # 01acea ;
+  largura : 100 % ;
+  margem : 0 automático;
+  estouro : oculto;
+  preenchimento : 30 px  0  50 px  0 ;
+  cor : # fff ;
+}
+
+. link {
+  cor : branco;
+}
+. link : passe o mouse {
+  cor : preto;
+}
+. link2 {
+  cor : preto;
+  decoração de texto : inicial;  
+}
+. link2 : passe o mouse {
+  cor : preto;
+}
+ 
+rodapé . container {
+  preenchimento : 30 px  0  50 px  0 ;
+}
+/ * -------- Responsividade -------- * /
+@media all e ( largura máxima : 768 px ) {
+  . Coluna , . coluna . Quatro , . coluna . tres , . coluna . dois {
+    display : bloco;
+    largura : 80 % ;
+    estofamento : 0 ;
+    margem : 10 px automático;
+    float : nenhum;
+  }
+  cabeçalho  # logo {
+    posição : relativa;
+    largura : 100 % ;
+    margem esquerda : 0 px ;
+    alinhamento de texto : centro;
+  }
+  . menu {
+    visibilidade : oculto;
+  }
+   
